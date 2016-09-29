@@ -1,4 +1,4 @@
-## Quick Mongodb Rest Server
+## Quick Mongodb REST Server
 
 A quick and very simple REST server that uses Mongodb. You can be up and running in a minute or two. 
 This works will work well for people who need a RESTFUL service locally for development and do not 
