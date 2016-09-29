@@ -2,7 +2,7 @@
 
 A quick and very simple REST server that uses MongoDB. You can be up and running in a minute or two. 
 This works will work well for people who need a RESTFUL service locally for development and do not 
-always have access to bandwidth.
+always have access to bandwidth. More information can be found [here](http://bradjnewman.com/rest,/node,/javascript,/api,/mongodb/2016/09/29/quick-server-mongodb-express.html#running).
 
 ## Packages
 
