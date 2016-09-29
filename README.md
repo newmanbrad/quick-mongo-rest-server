@@ -20,7 +20,7 @@ If you have not already installed Mongo. You can find installs here:
 If you are running Windows assure that you have the following environment variable:
  ```PATH=%PATH%;C:/Program Files/MongoDB/Server/3.2/bin/```
  
- **Note:** The path may vary depending on the current Mongo version.
+**Note:** The path may vary depending on the current Mongo version.
  
 #### Mac - After Install
 You will need to set a Path variable in you .bash_profile in order to start Mongo from the command line.
