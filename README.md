@@ -12,11 +12,11 @@ always have access to bandwidth.
 
 ## Table of Contents  
 
-[Quick Start](#don't-forget-to-install-packages) - Assuming you have MongoDB installed.
+[Quick Start](#running) - Assuming you have MongoDB installed.
 
 [Installing MongoDB](#installing-mongodb)
 
-[Up and Running](#up-and-running)  
+[Adding Your Own Schema](#adding-your-own-schema)  
 
 [Available Endpoints](#available-endpoints)  
 
@@ -48,7 +48,8 @@ echo "PATH=/your/path/here/bin/:$PATH" >> ~/.bash_profile
 ```
 
 
-## Up and Running
+## Adding Your Own Schema
+
 Below I will show a brief example of how to add additional models to your schema.
 I have created an example schema for users. Feel free to skip to step 3 if you are not looking to add anything else.
 
@@ -99,7 +100,7 @@ const config = {
 };
 ```
 
-#### Step 5
+## Running
 
 Don't forget to install packages:
 
