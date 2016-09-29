@@ -47,8 +47,8 @@ echo "PATH=/your/path/here/bin/:$PATH" >> ~/.bash_profile
 
 
 ### Up and Running
-
-I have created an example schema called users. Feel free to skip to step 3 if you are not looking to add anything else.
+Below I will show a brief example of how to add additional models to your schema.
+I have created an example schema for users. Feel free to skip to step 3 if you are not looking to add anything else.
 
 ### Step 1
 
