@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "author": "Brad Newman <bradjnewman@gmail.com> (http://bradjnewman.com)",
   "description": "A quick REST server with all verbs available that will interact with Mongodb.",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/caolan/async/raw/master/LICENSE"
+  }]
   "scripts": {
     "start-server": "npm run build-server && npm run watch-server build-server && npm run serve -server",
     "watch-server": "nodemon ./dist/server/server.js --exec babel-node --presets es2015",
