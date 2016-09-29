@@ -10,7 +10,7 @@ always have access to bandwidth.
 
 [Babel](https://babeljs.io/)
 
-#####  Contents  
+### Contents  
 
 [Installing MongoDB](#installing-mongodb)
 
