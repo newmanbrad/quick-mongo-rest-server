@@ -12,6 +12,8 @@ always have access to bandwidth.
 
 ## Table of Contents  
 
+[Quick Start](#step-5) - Assuming you have MongoDB installed.
+
 [Installing MongoDB](#installing-mongodb)
 
 [Up and Running](#up-and-running)  
