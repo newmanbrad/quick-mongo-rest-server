@@ -1,6 +1,6 @@
-## Quick Mongodb REST Server
+## Quick MongoDB REST Server
 
-A quick and very simple REST server that uses Mongodb. You can be up and running in a minute or two. 
+A quick and very simple REST server that uses MongoDB. You can be up and running in a minute or two. 
 This works will work well for people who need a RESTFUL service locally for development and do not 
 always have access to bandwidth.
 
@@ -10,11 +10,11 @@ always have access to bandwidth.
 
 [Babel](https://babeljs.io/)
 
-### Installing Mongodb
+### Installing MongoDB
 
 If you have not already installed Mongo. You can find installs here: 
 
-[Mongodb Site](https://www.mongodb.com/download-center#community)
+[MongoDB Site](https://www.mongoDB.com/download-center#community)
 
 #### Windows - After Install
 If you are running Windows assure that you have the following environment variable:
@@ -81,13 +81,13 @@ Modify the config file here: ```server/config.js```
 const config = {
     'database': 'test', // Whatever you would like to name your database.
     'port': 3000,
-    'host': 'mongodb://localhost:27017/'
+    'host': 'mongoDB://localhost:27017/'
 };
 ```
 
 #### Step 5
 
-Starting Mongodb: 
+Starting MongoDB: 
 
 ```
 Mac: npm run mongo-mac
@@ -102,7 +102,7 @@ In a new terminal window.
 npm run start-server 
 ```
 
-### Available interactions:
+### Available Endpoints
 
 ```
  GET http://localhost/api/v1/user/count
