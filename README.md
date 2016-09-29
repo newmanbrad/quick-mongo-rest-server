@@ -87,6 +87,12 @@ const config = {
 
 #### Step 5
 
+Don't forget to install packages:
+
+```
+npm install
+```
+
 Starting MongoDB: 
 
 ```
