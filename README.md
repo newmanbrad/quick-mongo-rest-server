@@ -1,8 +1,8 @@
-## Quick MongoDB REST Server
+## Quick MongoDB RESTful API Server
 
-A quick and very simple REST server that uses MongoDB. You can be up and running in a minute or two. 
-This works will work well for people who need a RESTFUL service locally for development and do not 
-always have access to bandwidth. More information can be found [here](http://bradjnewman.com/rest,/node,/javascript,/api,/mongodb/2016/09/29/quick-server-mongodb-express.html).
+A quick and very simple RESTful API Server that uses MongoDB and comes with sample data. You can be up and running in a few minutes. 
+This will work well for people who need a RESTful API locally for development and do not always have access 
+to bandwidth. More information can be found [here](http://bradjnewman.com/rest,/node,/javascript,/api,/mongodb/2016/09/29/quick-server-mongodb-express.html).
 
 ## Packages
 

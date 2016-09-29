@@ -2,7 +2,7 @@
   "name": "quick-mongo-rest-server",
   "version": "1.0.0",
   "author": "Brad Newman <bradjnewman@gmail.com> (http://bradjnewman.com)",
-  "description": "A quick REST server with all verbs available that will interact with Mongodb.",
+  "description": "A quick RESTful API Server with all verbs available that will interact with Mongodb.",
   "licenses": [{
     "type": "MIT",
     "url": "https://github.com/caolan/async/raw/master/LICENSE"
