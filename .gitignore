@@ -1,5 +1,6 @@
 .idea
 dist
+server/mongo-db
 node_modules
 **/*npm-debug.log.*
 
