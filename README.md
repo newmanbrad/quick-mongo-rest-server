@@ -11,11 +11,16 @@ always have access to bandwidth.
 [Babel](https://babeljs.io/)
 
 #####  Contents  
-⋅⋅* [Installing MongoDB](#installing-mongodb)
-⋅⋅* [Up and Running](#up-and-running)  
-⋅⋅* [Available Endpoints](#available-endpoints)  
-⋅⋅* [Importing Sample Data](#importing-sample-data)  
-⋅⋅* [Interaction](#interaction)  
+
+[Installing MongoDB](#installing-mongodb)
+
+[Up and Running](#up-and-running)  
+
+[Available Endpoints](#available-endpoints)  
+
+[Importing Sample Data](#importing-sample-data)  
+
+[Interaction](#interaction)  
 
 ### Installing MongoDB
 
