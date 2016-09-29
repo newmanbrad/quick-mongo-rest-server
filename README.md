@@ -125,6 +125,8 @@ npm run start-server
 ```
 
 
+mongoimport --db test --collection restaurants --drop --file ~/downloads/primer-dataset.json
+
 ### Interaction
 
 Need help building or interacting with your API? I highly suggest looking at [Postman](https://www.getpostman.com/) 

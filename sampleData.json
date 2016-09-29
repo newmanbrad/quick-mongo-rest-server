@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "57ed514f38a45611e9125f6f",
+    "username": "JamieHuff",
+    "firstName": "Elaine",
+    "lastName": "Stafford",
+    "email": "Elaine.Stafford@test.com",
+    "permissions": {
+      "admin": true
+    }
+  },
+  {
+    "_id": "57ed514fbf47df56013c838e",
+    "username": "HorneSuarez",
+    "firstName": "Lucas",
+    "lastName": "Bradford",
+    "email": "Lucas.Bradford@test.com",
+    "permissions": {
+      "admin": true
+    }
+  },
+  {
+    "_id": "57ed514fdff2a624cb60a68e",
+    "username": "FultonPace",
+    "firstName": "Weaver",
+    "lastName": "Potts",
+    "email": "Weaver.Potts@test.com",
+    "permissions": {
+      "admin": true
+    }
+  },
+  {
+    "_id": "57ed514f3c40908e480914ed",
+    "username": "PatriceClay",
+    "firstName": "Mercado",
+    "lastName": "Russell",
+    "email": "Mercado.Russell@test.com",
+    "permissions": {
+      "admin": false
+    }
+  },
+  {
+    "_id": "57ed514f2f81d31a0d285016",
+    "username": "JordanMeadows",
+    "firstName": "Simpson",
+    "lastName": "Wade",
+    "email": "Simpson.Wade@test.com",
+    "permissions": {
+      "admin": false
+    }
+  },
+  {
+    "_id": "57ed514f8efb23f2befbfbcb",
+    "username": "DixonPuckett",
+    "firstName": "Mara",
+    "lastName": "Wood",
+    "email": "Mara.Wood@test.com",
+    "permissions": {
+      "admin": true
+    }
+  },
+  {
+    "_id": "57ed514fd56a0ff5bceed0ff",
+    "username": "WhiteheadStephens",
+    "firstName": "Baxter",
+    "lastName": "King",
+    "email": "Baxter.King@test.com",
+    "permissions": {
+      "admin": false
+    }
+  },
+  {
+    "_id": "57ed514fffb1e40fdc12cfd4",
+    "username": "KiddBuckner",
+    "firstName": "Lorrie",
+    "lastName": "Floyd",
+    "email": "Lorrie.Floyd@test.com",
+    "permissions": {
+      "admin": true
+    }
+  }
+]
