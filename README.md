@@ -119,7 +119,7 @@ npm run start-server
 ```
 
 
-### Interacting
+### Interaction
 
 Need help building or interacting with your API? I highly suggest looking at [Postman](https://www.getpostman.com/) 
 
