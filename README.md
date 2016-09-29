@@ -4,13 +4,13 @@ A quick and very simple REST server that uses MongoDB. You can be up and running
 This works will work well for people who need a RESTFUL service locally for development and do not 
 always have access to bandwidth.
 
-### Packages
+## Packages
 
 [Express Restify Mongoose](https://github.com/florianholzapfel/express-restify-mongoose)
 
 [Babel](https://babeljs.io/)
 
-### Contents  
+## Table of Contents  
 
 [Installing MongoDB](#installing-mongodb)
 
@@ -22,7 +22,7 @@ always have access to bandwidth.
 
 [Interaction](#interaction)  
 
-### Installing MongoDB
+## Installing MongoDB
 
 If you have not already installed Mongo. You can find installs here: 
 
@@ -46,7 +46,7 @@ echo "PATH=/your/path/here/bin/:$PATH" >> ~/.bash_profile
 ```
 
 
-### Up and Running
+## Up and Running
 Below I will show a brief example of how to add additional models to your schema.
 I have created an example schema for users. Feel free to skip to step 3 if you are not looking to add anything else.
 
@@ -120,7 +120,7 @@ In a new terminal window.
 npm run start-server 
 ```
 
-### Available Endpoints
+## Available Endpoints
 
 ```
  GET http://localhost/api/v1/user/count
@@ -136,7 +136,7 @@ npm run start-server
  DELETE http://localhost/api/v1/user/:id
 ```
 
-### Importing Sample Data
+## Importing Sample Data
 
 If you would like to import sample data. 
 
@@ -152,8 +152,7 @@ mongoimport --db test --collection users --drop --file sampleData.json --jsonArr
 
 **Note:** replace the word ```test``` in the string above with whatever you have named your database.
 
-
-### Interaction
+## Interaction
 
 Need help building or interacting with your API? I highly suggest looking at [Postman](https://www.getpostman.com/) 
 
