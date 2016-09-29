@@ -124,8 +124,22 @@ npm run start-server
  DELETE http://localhost/api/v1/user/:id
 ```
 
+### Importing Sample Data
 
-mongoimport --db test --collection restaurants --drop --file ~/downloads/primer-dataset.json
+If you would like to import sample data. 
+
+#### Step 1
+Assure that MongoDB is running, or you have run the ```npm run mongo-mac``` in another terminal window.
+ 
+#### Step 2
+From the command line run the following:
+
+```
+mongoimport --db test --collection users --drop --file sampleData.json --jsonArray
+```
+
+**Note:** replace the word ```test``` in the string above with whatever you have named your database.
+
 
 ### Interaction
 
