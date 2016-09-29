@@ -1,6 +1,7 @@
 .idea
 typings/**
 dist
+server/mongo-db
 node_modules
 jspm_packages
 link-checker-results.txt
