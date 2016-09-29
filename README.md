@@ -12,7 +12,7 @@ always have access to bandwidth.
 
 ## Table of Contents  
 
-[Quick Start](#step-5) - Assuming you have MongoDB installed.
+[Quick Start](#don't-forget-to-install-packages) - Assuming you have MongoDB installed.
 
 [Installing MongoDB](#installing-mongodb)
 
