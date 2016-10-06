@@ -3,6 +3,8 @@ import bodyParser from 'body-parser';
 import methodOverride from 'method-override';
 import mongoose from 'mongoose';
 import restify from 'express-restify-mongoose';
+import cors from 'cors';
+
 import config from './config';
 import userModel from './models/users';
 
@@ -30,6 +32,7 @@ mongoose.Promise = global.Promise;
 
 app.use(bodyParser.json());
 app.use(methodOverride());
+app.use(cors());
 
 mongoose.connect(config.host + config.database, function(err) {
   if (err) {
