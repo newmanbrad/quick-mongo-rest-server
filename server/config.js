@@ -1,6 +1,6 @@
 const config = {
     'database': 'test',
-    'port': 3000,
+    'port': 8080,
     'host': 'mongodb://localhost:27017/'
 };
 

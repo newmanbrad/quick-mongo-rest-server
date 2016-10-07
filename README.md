@@ -108,19 +108,11 @@ Don't forget to install packages:
 npm install
 ```
 
-Starting MongoDB: 
+Starting MongoDB and the Server: 
 
 ```
-Mac: npm run mongo-mac
-Windows: npm run mongo-win
-```
-
-Run the server:
-
-In a new terminal window.
-
-```
-npm run start-server 
+Mac: npm run start-mac
+Windows: npm run start-win
 ```
 
 ## Available Endpoints
