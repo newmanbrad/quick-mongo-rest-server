@@ -31,16 +31,23 @@ mongoose.connect(config.host + config.database, function(err) {
  */
 
 if(config.jwt){
-  const expressJwt = require('express-jwt');
-  const secret = 'big secret';
 
-  app.use(expressJwt({ secret: secret }).unless({path: ['/api/v1/login']}));
+  const expressJwt = require('express-jwt');
+
+  /**
+   *  Require a token from all paths or pass in a array of paths that do not
+   *  require a authentication.
+   */
+
+  app.use(expressJwt({ secret: config.secret }).unless({path: ['/api/v1/login']}));
 
   /**
    *  Login:
    *
    *  Creates and returns JWT along with user information.
    *  Use the provided token in request header: Key: Authorization Value: Bearer <returned key>
+   *
+   *  select contains a list of the fields that you would like to return at the time of authentication.
    */
 
   app.post('/api/v1/login', function (req, res) {
@@ -48,7 +55,7 @@ if(config.jwt){
       if (!r) {
         return res.sendStatus(403);
       } else {
-        let token = jwt.sign( { user: req.body.user }, secret );
+        let token = jwt.sign( { user: req.body.user }, config.secret );
         let response = {"token": token, "user": r };
         res.json(response);
       }
@@ -65,12 +72,21 @@ if(config.jwt){
     }
   });
 
+  /**
+   *  byPassJWT
+   *
+   *  Middleware method that can be used to insert desired actions prior to JWT check.
+   *  @param req
+   *  @param res
+   *  @param next
+   */
+
   function byPassJWT(req, res, next) {
     // example: allow all get requests
     // if(req.method === 'GET') {
     //   return next();
     // }
-    return expressJwt({ secret: secret })(req, res, next);
+    return expressJwt({ secret: config.secret })(req, res, next);
   };
 
   /**
