@@ -1,4 +1,5 @@
 const config = {
+    'jwt': false,
     'database': 'test',
     'port': 8080,
     'host': 'mongodb://localhost:27017/'

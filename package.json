@@ -32,7 +32,9 @@
     "concurrently": "^3.1.0",
     "cors": "^2.8.1",
     "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
     "express-restify-mongoose": "^4.1.1",
+    "jsonwebtoken": "^7.1.9",
     "method-override": "^2.3.6",
     "mongoose": "^4.6.1",
     "nodemon": "^1.10.2"

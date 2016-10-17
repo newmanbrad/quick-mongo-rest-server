@@ -24,6 +24,8 @@ to bandwidth. More information can be found [here](http://bradjnewman.com/rest,/
 
 [Interaction](#interaction)  
 
+[Add JWT](#add-jwt)  
+
 ## Installing MongoDB
 
 If you have not already installed Mongo. You can find installs here: 
@@ -146,6 +148,16 @@ mongoimport --db test --collection users --drop --file sampleData.json --jsonArr
 ```
 
 **Note:** replace the word ```test``` in the string above with whatever you have named your database.
+
+## Add JWT
+
+To turn on JWT set ```jwt``` the config file to ```true```.
+
+After JWT is turned on, you will need to get a token by authenticating via the post route: ```/api/v1/login```. When a valid
+username and password string is sent the JSON object that is returned will contain the authentication token. To use this token to call
+other end-points you will need to pass the following information in the header.
+
+````Authorization: Bearer <Token returned during authentication.>````
 
 ## Interaction
 
