@@ -151,7 +151,7 @@ mongoimport --db test --collection users --drop --file sampleData.json --jsonArr
 
 ## Add JWT
 
-To turn on JWT set ```jwt``` the config file to ```true```.
+To turn on JWT set ```jwt``` in the config file to ```true```.
 
 After JWT is turned on, you will need to get a token by authenticating via the post route: ```/api/v1/login```. When a valid
 username and password string is sent the JSON object that is returned will contain the authentication token. To use this token to call
