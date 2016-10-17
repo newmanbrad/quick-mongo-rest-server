@@ -2,6 +2,7 @@
   {
     "_id": "57ed514f38a45611e9125f6f",
     "username": "JamieHuff",
+    "password": "password",
     "firstName": "Elaine",
     "lastName": "Stafford",
     "email": "Elaine.Stafford@test.com",
@@ -12,6 +13,7 @@
   {
     "_id": "57ed514fbf47df56013c838e",
     "username": "HorneSuarez",
+    "password": "password",
     "firstName": "Lucas",
     "lastName": "Bradford",
     "email": "Lucas.Bradford@test.com",
@@ -22,6 +24,7 @@
   {
     "_id": "57ed514fdff2a624cb60a68e",
     "username": "FultonPace",
+    "password": "password",
     "firstName": "Weaver",
     "lastName": "Potts",
     "email": "Weaver.Potts@test.com",
@@ -32,6 +35,7 @@
   {
     "_id": "57ed514f3c40908e480914ed",
     "username": "PatriceClay",
+    "password": "password",
     "firstName": "Mercado",
     "lastName": "Russell",
     "email": "Mercado.Russell@test.com",
@@ -42,6 +46,7 @@
   {
     "_id": "57ed514f2f81d31a0d285016",
     "username": "JordanMeadows",
+    "password": "password",
     "firstName": "Simpson",
     "lastName": "Wade",
     "email": "Simpson.Wade@test.com",
@@ -52,6 +57,7 @@
   {
     "_id": "57ed514f8efb23f2befbfbcb",
     "username": "DixonPuckett",
+    "password": "password",
     "firstName": "Mara",
     "lastName": "Wood",
     "email": "Mara.Wood@test.com",
@@ -62,6 +68,7 @@
   {
     "_id": "57ed514fd56a0ff5bceed0ff",
     "username": "WhiteheadStephens",
+    "password": "password",
     "firstName": "Baxter",
     "lastName": "King",
     "email": "Baxter.King@test.com",
@@ -72,6 +79,7 @@
   {
     "_id": "57ed514fffb1e40fdc12cfd4",
     "username": "KiddBuckner",
+    "password": "password",
     "firstName": "Lorrie",
     "lastName": "Floyd",
     "email": "Lorrie.Floyd@test.com",
