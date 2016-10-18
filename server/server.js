@@ -78,7 +78,7 @@ if(config.jwt){
    *  Middleware method that can be used to insert desired actions prior to JWT check.
    *  @param req
    *  @param res
-   *  @param next
+   * @param next
    */
 
   function byPassJWT(req, res, next) {
