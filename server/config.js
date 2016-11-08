@@ -1,5 +1,5 @@
 const config = {
-    'jwt': false,
+    'jwt': true,
     'secret': 'big secret',
     'database': 'test',
     'port': 8080,
